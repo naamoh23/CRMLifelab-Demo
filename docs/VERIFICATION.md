@@ -33,3 +33,13 @@ During hot updates, Vinext/React refreshed the provider and consumers at differe
 ## Limits
 
 This does not certify production RBAC/RLS, real identity/session handling, financial reconciliation against a bank, PEAK/2C2P/LINE/WooCommerce/LearnDash delivery, vulnerability/pentest, backup/restore, 50,000 records, 20 concurrent users, SLA, data residency or cross-browser compatibility. Mobile/tablet checks use viewport simulation, not physical devices. Local demo storage and audit are editable and unsuitable for real customer data.
+
+## PEAK payment link update and GitHub Pages — 28 September 2026
+
+- `npm test`: 30 tests passed (the original 22 plus 8 payment-link and notification checks).
+- `npm run typecheck`, `npm run lint` and `npm run build:pages`: passed.
+- Payment-link checks cover PEAK invoice/customer mapping, payable balance, automatic Email/SMS records, deduplication, PEAK failure recovery, retry of SMS without repeating Email, expiry and amount changes, invalid contact details, and validation of a future verified provider response.
+- Browser on the Pages build: INV-2609-005 created one link and two DemoSent records. INV-2609-006 with simulated SMS failure retried SMS to attempt 2 while Email remained at attempt 1. Light and Dark views inspected.
+- GitHub Actions run 36451751089 on commit c92c8a1 completed build and deploy successfully. Public URL https://naamoh23.github.io/CRMLifelab-Demo/ opened and rendered the CRM dashboard.
+- Word deliverables were rendered and visually inspected, with Noto Sans Thai and 72 baseline requirement IDs preserved. They document demo coverage and remaining production work.
+- The live public site is a static demo. It does not send real Email/SMS, charge cards or call the PEAK payment-link API. A verified PEAK endpoint/response and server integration remain required.
