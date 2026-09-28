@@ -1,0 +1,285 @@
+[
+  {
+    "path": "01_LifeLab CRM — สรุป Requirement รอบที่ 3.html",
+    "bytes": 79274,
+    "sha256": "c7812c23b59956512c0ebbbb2fdb088d0d01318960efcb86aeadc13719762bbf",
+    "lines": 631
+  },
+  {
+    "path": "02_LL_CRM_Final_PackLasted.docx",
+    "bytes": 235770,
+    "sha256": "cfc04cffe6c49aace74b6d38e97b7c9e00b053e14faa4e92a8d305121072d016",
+    "lines": 2061
+  },
+  {
+    "path": "03_SOM-lifelab-crm-v1.docx",
+    "bytes": 58384,
+    "sha256": "6cb767bed85b680518aa4ae9904a9fddd0095731438ec1d0aab2614e403ae692",
+    "lines": 369
+  },
+  {
+    "path": "sdlc/00_project-governance/RACI-matrix.md",
+    "bytes": 6202,
+    "sha256": "35008e3737e2918fc20ab0704f755217808e21a5993c6be46e2ef3e8b9b81b60",
+    "lines": 54
+  },
+  {
+    "path": "sdlc/00_project-governance/RAID-log.md",
+    "bytes": 20034,
+    "sha256": "6f3ded70ca5e32b1ab9e2bafaa453aa37acab1a3ba4c34aaa4e6a59a79fbd96f",
+    "lines": 60
+  },
+  {
+    "path": "sdlc/00_project-governance/traceability-matrix.md",
+    "bytes": 14367,
+    "sha256": "e9d77fba3e94d5e4c25cede3074793965ab38419967dbd14151fd1dd24c6bcd0",
+    "lines": 108
+  },
+  {
+    "path": "sdlc/01_requirements/FR-NFR-Spec_LifeLab-CRM.docx",
+    "bytes": 32605,
+    "sha256": "feb1a121c4f429cb2a0cf550b43f72543f0083e3f91174fea7ba9265eeb8efc3",
+    "lines": 690
+  },
+  {
+    "path": "sdlc/01_requirements/FR-NFR-spec-draft.md",
+    "bytes": 67290,
+    "sha256": "b349297cac25e34ba9e610e20cdb76359b5b547920a690c1ffdd151b39f5449e",
+    "lines": 285
+  },
+  {
+    "path": "sdlc/01_requirements/requirement-baseline-consolidated.md",
+    "bytes": 30115,
+    "sha256": "38672e67c4c3b5e79f564bb0e7acca24549deecdb78a37d0a79e76e5853db6dd",
+    "lines": 190
+  },
+  {
+    "path": "sdlc/01_requirements/~$-NFR-Spec_LifeLab-CRM.docx",
+    "bytes": 162,
+    "sha256": "2050a5d667b4cfb802ce4ee67a0d434a7fcf353082e22762f8658aa0e6be6ecd",
+    "kind": "Word temporary lock (not a source document)"
+  },
+  {
+    "path": "sdlc/02_business-logic/business-rules-decision-tables.md",
+    "bytes": 16412,
+    "sha256": "2f164bbd37d1db49f6177df9a8bdad9d3983a169e56824dc6832560a88f54c0b",
+    "lines": 127
+  },
+  {
+    "path": "sdlc/03_access-control-draft/rbac-matrix-draft.md",
+    "bytes": 7049,
+    "sha256": "4a29428a747525da192b0c82afc08cbb50a85da6723644a4c2c7fb4fd36564bf",
+    "lines": 44
+  },
+  {
+    "path": "sdlc/04_data-migration/data-migration-inventory.md",
+    "bytes": 14946,
+    "sha256": "a50233e873b95f31a1e1ac055b5d2eddacbfa59f126cdfb479cf3a73abc395aa",
+    "lines": 102
+  },
+  {
+    "path": "sdlc/05_process-design/diagrams/01-lead-to-sale.png",
+    "bytes": 56516,
+    "sha256": "f3a4927e6ef589cc51f60a133542b1185ac67db171fcb96016686a3a6d21d20f"
+  },
+  {
+    "path": "sdlc/05_process-design/diagrams/01-lead-to-sale.svg",
+    "bytes": 7483,
+    "sha256": "c0f4825c1aee509593ac1ac65e42d44e4c09584820de5f4040141a7c5c984c7e",
+    "lines": 97
+  },
+  {
+    "path": "sdlc/05_process-design/diagrams/02-payment-reconciliation.png",
+    "bytes": 83564,
+    "sha256": "04f1ee9fd389fbfceef6cdff81b4c3175f7e7cd326997cb5a5f6d81df72be3ee"
+  },
+  {
+    "path": "sdlc/05_process-design/diagrams/02-payment-reconciliation.svg",
+    "bytes": 7044,
+    "sha256": "2e25125fb16bd73818ca6eae1e6cccb393ca108d69352d66a734ead79d08d2e0",
+    "lines": 70
+  },
+  {
+    "path": "sdlc/05_process-design/diagrams/03-case-management.png",
+    "bytes": 31361,
+    "sha256": "58a428118969c87145c65eb5524bebc68f112b9aaeb4c1b74370a4439c2a7b69"
+  },
+  {
+    "path": "sdlc/05_process-design/diagrams/03-case-management.svg",
+    "bytes": 4039,
+    "sha256": "f5249b6690bdb11903835d1051544e72ebc7c364a5082aedf979ea1492cda4a1",
+    "lines": 55
+  },
+  {
+    "path": "sdlc/05_process-design/diagrams/04-certificate-issuance.png",
+    "bytes": 68702,
+    "sha256": "85cb7b2c63e61780fa699efa4ada84dc4ef8af0b1e8566f749f3ea3a9314c8d5"
+  },
+  {
+    "path": "sdlc/05_process-design/diagrams/04-certificate-issuance.svg",
+    "bytes": 6812,
+    "sha256": "f52fc2b7fc5f4f21aa52f567382c651dcceb284246ee232ec5cc8b7637af7a3b",
+    "lines": 63
+  },
+  {
+    "path": "sdlc/05_process-design/diagrams/05-line-otp-verification.png",
+    "bytes": 56662,
+    "sha256": "433324f49ada127e3e055bd1ffc77726d9e30626b2da249f67c37b9d16dd25cf"
+  },
+  {
+    "path": "sdlc/05_process-design/diagrams/05-line-otp-verification.svg",
+    "bytes": 5407,
+    "sha256": "89bf72728f755123d4d0eab28f82459fc8b1d0eec1bc16fcb82e43b377f54dea",
+    "lines": 55
+  },
+  {
+    "path": "sdlc/05_process-design/diagrams/06-installment-retry.png",
+    "bytes": 61622,
+    "sha256": "edbe9103a0aec2f56c186a67998b1b1d1bd1ea54c1484f82e70ddb0dc0ba2bb6"
+  },
+  {
+    "path": "sdlc/05_process-design/diagrams/06-installment-retry.svg",
+    "bytes": 5261,
+    "sha256": "eaaec2f7df1b639adde472c8c17a634b5ddeeaebe03607286c039f6b3abd2313",
+    "lines": 60
+  },
+  {
+    "path": "sdlc/05_process-design/diagrams/07-refund-request.png",
+    "bytes": 73752,
+    "sha256": "5413027ef6530e67618816cacb0a83b7bbe9474b96676b5b490f477593f370b8"
+  },
+  {
+    "path": "sdlc/05_process-design/diagrams/07-refund-request.svg",
+    "bytes": 6399,
+    "sha256": "707b8cb29ccbbb2675f049238305886af39b96c0649b698942253bb9b71b0419",
+    "lines": 58
+  },
+  {
+    "path": "sdlc/05_process-design/process-flow-diagrams.md",
+    "bytes": 4878,
+    "sha256": "b728f43f4c9b7f450adfa51a21c7b649ff4f44d44f2f4abb553e9167038e7e3e",
+    "lines": 54
+  },
+  {
+    "path": "sdlc/06_threat-model/Threat-Model_LifeLab-CRM.docx",
+    "bytes": 103820,
+    "sha256": "747ab24adf6efd324aa3d001444a324e09f138a14cdc5a1c6311318549321bc0",
+    "lines": 250
+  },
+  {
+    "path": "sdlc/06_threat-model/diagrams/dfd-level0.png",
+    "bytes": 90922,
+    "sha256": "f3fc1659355766c6e372d411af3be91552065bc4c4d04645956aa8bbab92d97e"
+  },
+  {
+    "path": "sdlc/06_threat-model/diagrams/dfd-level0.svg",
+    "bytes": 10340,
+    "sha256": "c7caeedcef086f4b3b5852d2bc2b7414d52292bdc1d4a7ca29d18810c976dfd4",
+    "lines": 103
+  },
+  {
+    "path": "sdlc/06_threat-model/threat-model.md",
+    "bytes": 16796,
+    "sha256": "facec4faab9fc3864c7f7a8fdd9d851d3fc9aee3543d8dcc70d08a73b26ca6f9",
+    "lines": 95
+  },
+  {
+    "path": "sdlc/07_project-plan/Project-Baseline-Plan_LifeLab-CRM.docx",
+    "bytes": 57443,
+    "sha256": "75b23c7eecef4a32bcc15473a8fe1c3c410356a184fc8fefcbf978555335ca61",
+    "lines": 132
+  },
+  {
+    "path": "sdlc/07_project-plan/diagrams/gantt-timeline.png",
+    "bytes": 45610,
+    "sha256": "e283182a706a30d7f9758f2bfe8149e2d2072870cdc09b8340ea6f4e1d906b02"
+  },
+  {
+    "path": "sdlc/07_project-plan/diagrams/gantt-timeline.svg",
+    "bytes": 7321,
+    "sha256": "d94b8fb7f9b3933c235677bb9a1892a5a40e80af6b0f2d177856e1b1145b8a2c",
+    "lines": 5
+  },
+  {
+    "path": "sdlc/07_project-plan/project-baseline-plan.md",
+    "bytes": 10551,
+    "sha256": "b89f3fb786c0b9ba3c1c86b3929e3e98411858c87902666086c8ed51a5fb8f4f",
+    "lines": 107
+  },
+  {
+    "path": "sdlc/08_data-model/ERD_LifeLab-CRM.docx",
+    "bytes": 183938,
+    "sha256": "88de5b59080d4165a5bb1fb7d606c7af0823a0ff8bc120f16b1f61394fb752f7",
+    "lines": 146
+  },
+  {
+    "path": "sdlc/08_data-model/data-dictionary-erd.md",
+    "bytes": 6940,
+    "sha256": "d165341954062bcda5010c946b3ede6b05787ce7d3af9adb100f7b0eb0e199da",
+    "lines": 94
+  },
+  {
+    "path": "sdlc/08_data-model/diagrams/erd.png",
+    "bytes": 175304,
+    "sha256": "f042510a03e3c61265495291a3a79713b13cd78c06f2b7541bf1c618682e9df3"
+  },
+  {
+    "path": "sdlc/08_data-model/diagrams/erd.svg",
+    "bytes": 21952,
+    "sha256": "19f69a91b22ca79b5327866c84b88a1db2f801c1b289762d474615c6fa0f981d",
+    "lines": 15
+  },
+  {
+    "path": "sdlc/09_test-plan/Master-Test-Plan_LifeLab-CRM.docx",
+    "bytes": 40991,
+    "sha256": "a0b32aa9e10cba9bdbdde9c0d58219dc9515a824cb99f04cf84b97c54f113956",
+    "lines": 239
+  },
+  {
+    "path": "sdlc/09_test-plan/diagrams/test-pyramid.png",
+    "bytes": 25189,
+    "sha256": "be9b49cbbb5dc191f514437bb1b5b142f949481f55d12e327a0b6d3f8422f000"
+  },
+  {
+    "path": "sdlc/09_test-plan/diagrams/test-pyramid.svg",
+    "bytes": 2190,
+    "sha256": "2946708d5b39fb1a14d0e0cef401f71ba57e853b5084897b734712ba8b1ed58b",
+    "lines": 5
+  },
+  {
+    "path": "sdlc/09_test-plan/master-test-plan.md",
+    "bytes": 11869,
+    "sha256": "496c25d7217eb6abce83a14e303e85709497f9b8d7d3f3c610247512cac0ed2d",
+    "lines": 96
+  },
+  {
+    "path": "sdlc/Checklist_LifeLab-CRM-SDLC.docx",
+    "bytes": 15894,
+    "sha256": "98f8df034e362b409389a1691f33c0497404aba467cc85a5432ec9b6b77939fc",
+    "lines": 163
+  },
+  {
+    "path": "sdlc/P0-Governance-Design-Pack_LifeLab-CRM.docx",
+    "bytes": 575476,
+    "sha256": "24b3c381f9ec5873075ebac292c864d2a21fc9ccacb438ed2620bd8aa2d88604",
+    "lines": 1371
+  },
+  {
+    "path": "sdlc/README.md",
+    "bytes": 16040,
+    "sha256": "27f5218e45d3b23edde5aeca47808535b14b2ddb7f9470110960d61e38ab88ce",
+    "lines": 129
+  },
+  {
+    "path": "sdlc/~$-Governance-Design-Pack_LifeLab-CRM.docx",
+    "bytes": 162,
+    "sha256": "2050a5d667b4cfb802ce4ee67a0d434a7fcf353082e22762f8658aa0e6be6ecd",
+    "kind": "Word temporary lock (not a source document)"
+  },
+  {
+    "path": "sdlc/~$ecklist_LifeLab-CRM-SDLC.docx",
+    "bytes": 162,
+    "sha256": "2050a5d667b4cfb802ce4ee67a0d434a7fcf353082e22762f8658aa0e6be6ecd",
+    "kind": "Word temporary lock (not a source document)"
+  }
+]

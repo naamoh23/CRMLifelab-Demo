@@ -1,0 +1,5 @@
+import { Customer } from './domain';
+export const splitRoles=(role:string)=>role.split(' + ');
+export const hasRole=(role:string,...choices:string[])=>splitRoles(role).some(r=>choices.includes(r));
+export function visibleCustomers(customers:Customer[],role:string){const roles=splitRoles(role);return customers.filter(c=>!c.archived&&roles.some(r=>r==='ฝ่ายขาย'?c.owner==='เมย์':r==='เซลล์ภายนอก'?c.originOwner==='นัท':r==='การตลาด'?c.segment==='พัฒนาศักยภาพ':r==='พนักงานบัญชี'?c.owner==='เมย์':true));}
+export function canViewPage(role:string,page:string){if(page==='finance')return hasRole(role,'ผู้บริหาร','หัวหน้าบัญชี','พนักงานบัญชี');if(['team','audit','settings'].includes(page))return hasRole(role,'ผู้บริหาร','System Admin');if(page==='marketing')return hasRole(role,'ผู้บริหาร','การตลาด');if(page==='learning')return hasRole(role,'ผู้บริหาร','ปฏิบัติการ','หัวหน้าบัญชี','พนักงานบัญชี');if(page==='pipeline')return hasRole(role,'ผู้บริหาร','หัวหน้าฝ่ายขาย','ฝ่ายขาย','เซลล์ภายนอก','ปฏิบัติการ');if(['integrations','automation'].includes(page))return hasRole(role,'ผู้บริหาร','System Admin','ปฏิบัติการ','หัวหน้าบัญชี');return true;}
