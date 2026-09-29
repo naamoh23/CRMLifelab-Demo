@@ -14,7 +14,7 @@ npm run install:ci
 npm run dev -- --host 127.0.0.1
 ```
 
-เปิด URL ที่ terminal แสดง (โดยปกติ http://localhost:5173) เปลี่ยนธีมด้วยปุ่มดวงจันทร์/ดวงอาทิตย์ เลือกบทบาทจากแถบ DEMO ด้านบน ไม่ต้องกรอก Password
+เปิด URL ที่ terminal แสดง (โดยปกติ http://localhost:5173) เปลี่ยนธีมด้วยปุ่มดวงจันทร์/ดวงอาทิตย์ เลือกบทบาทจากแถบ DEMO ด้านบน เข้าสู่ระบบด้วย user05 / 12345 เพื่อเข้าทุกโมดูลด้วยสิทธิ์ผู้บริหาร
 
 ```sh
 npm test
@@ -54,7 +54,7 @@ Build อยู่ใน `dist/` ใช้ Cloudflare-compatible worker วั�
 
 ## เอกสารประกอบ
 
-- [สคริปต์นำเสนอประมาณ 10 นาที](docs/DEMO-SCRIPT.md)
+- [สคริปต์นำเสนอประมาณ 15 นาที](docs/DEMO-SCRIPT.md)
 - [ข้อกำหนดและขอบเขตเดโม](docs/REQUIREMENTS-COVERAGE.md)
 - [ผลตรวจสอบและข้อจำกัด](docs/VERIFICATION.md)
 - [บัญชีไฟล์ต้นทางและ SHA-256](docs/SOURCE-INVENTORY.json)
@@ -76,3 +76,10 @@ JSON backup เป็นการ export ไม่มีหน้า restore JSO
 Build สำหรับ GitHub Pages ด้วย `npm run build:pages` ได้ dist-pages/ และทดลองด้วย `npm run preview:pages` เป็น static demo ไม่มี server API หรือการส่งเงินจริง/ข้อความจริง ต้องเปิด Settings → Pages → Source เป็น GitHub Actions ก่อน deploy workflow
 
 ซอร์สโค้ดฉบับเต็มอยู่ใน repository นี้ คู่มือ Word ใน docs/deliverables/ อธิบายวิธีใช้ โครงสร้างโค้ด สคริปต์นำเสนอ และขอบเขต 72 ข้อ
+
+
+## รุ่น 1.2 Login
+
+ใช้ Username user05 และ Password 12345 เข้า Dashboard ด้วยสิทธิ์ผู้บริหารทุกโมดูล มีแสดง/ซ่อนรหัสผ่าน แจ้งรหัสผิด และปุ่มออกจากระบบ Refresh แท็บเดิมรักษา session ออกจากระบบไม่ล้างข้อมูล CRM และเปิด deep link โดยไม่มี session ยังเห็น Login กฎธุรกิจคงเดิม การสลับบทบาทในแถบ DEMO ใช้จำลองสิทธิ์
+
+เป็น presentation gate ใน browser ใช้ sessionStorage ไม่ใช่ server Authentication รหัสเดโมเปิดเผยอยู่ในโค้ด
