@@ -43,3 +43,7 @@ This does not certify production RBAC/RLS, real identity/session handling, finan
 - GitHub Actions run 36451751089 on commit c92c8a1 completed build and deploy successfully. Public URL https://naamoh23.github.io/CRMLifelab-Demo/ opened and rendered the CRM dashboard.
 - Word deliverables were rendered and visually inspected, with Noto Sans Thai and 72 baseline requirement IDs preserved. They document demo coverage and remaining production work.
 - The live public site is a static demo. It does not send real Email/SMS, charge cards or call the PEAK payment-link API. A verified PEAK endpoint/response and server integration remain required.
+
+## Version 1.2 Login — 29 September 2026
+
+Login gate accepts demo username user05 and password 12345. Browser checks passed: wrong password rejected, correct password opens Dashboard as Executive, all 15 modules render, same-tab refresh retains session, logout removes session and returns to Login. An unauthenticated #learning deep link renders Login before workspace. Business-rule validation remains active. Session state uses sessionStorage; this is not server authentication or a production security boundary. Typecheck, lint and Pages build passed. Lint now excludes generated dist-pages output.

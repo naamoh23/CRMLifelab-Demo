@@ -33,7 +33,7 @@
 | FR-RBAC-002 | union scope และตัวอย่างฝ่ายขาย + ปฏิบัติการ; team record หลาย role |
 | FR-RBAC-003 | UI controls/page scope ตามบทบาท; ไม่ใช่ server authorization |
 | FR-RBAC-004 | ผู้บริหารจัดการ team record; ไม่มี Auth session ให้ revoke จริง |
-| FR-RBAC-005 | Invite/approval records ในเครื่อง; ไม่ส่งอีเมล ไม่มี signup/login จริง |
+| FR-RBAC-005 | Login เดโม user05 / 12345 พร้อม logout; Invite/approval ในเครื่อง ไม่มี server Auth หรือ signup จริง |
 | FR-RBAC-006 | Audit บน actions สำคัญในเครื่อง; ยังลบ/แก้ผ่าน localStorage ได้ |
 | FR-RBAC-007 | ฝ่ายปฏิบัติการไม่เห็นจำนวนเงิน; แก้ Customer master เฉพาะผู้บริหาร |
 | FR-RBAC-008 | Marketing segment/account staff owner filtering แบบตัวอย่าง |
